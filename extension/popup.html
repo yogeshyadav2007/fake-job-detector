@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fake Job Detector</title>
+    <link rel="stylesheet" href="src/popup.css" />
+  </head>
+  <body>
+    <h1>Fake Job Detector</h1>
+    <button id="check">Analyze this page</button>
+    <div id="result" hidden>
+      <div id="verdict"></div>
+      <div class="bar"><div id="fill"></div></div>
+      <div id="score"></div>
+      <ul id="flags"></ul>
+    </div>
+    <p id="status" class="muted">Open a job posting, then click analyze.</p>
+    <script src="src/classifier.js"></script>
+    <script src="src/popup.js"></script>
+  </body>
+</html>

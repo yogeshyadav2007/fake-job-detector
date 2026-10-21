@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 14px; width: 300px; color: #1f2937; }
+h1 { font-size: 16px; margin: 0 0 10px; }
+button { width: 100%; background: #2563eb; color: #fff; padding: 8px; border: 0; border-radius: 6px; font-size: 14px; cursor: pointer; }
+button:disabled { background: #94a3b8; cursor: default; }
+#result { margin-top: 12px; }
+#verdict { font-size: 15px; font-weight: bold; }
+.bar { height: 8px; background: #e5e7eb; border-radius: 4px; margin: 6px 0; overflow: hidden; }
+#fill { height: 100%; width: 0; transition: width .3s; }
+#score, .muted { font-size: 12px; color: #6b7280; }
+#flags { padding-left: 18px; margin: 8px 0 0; font-size: 13px; }
+.low #verdict { color: #15803d; } .low #fill { background: #22c55e; }
+.medium #verdict { color: #b45309; } .medium #fill { background: #f59e0b; }
+.high #verdict { color: #b91c1c; } .high #fill { background: #ef4444; }
